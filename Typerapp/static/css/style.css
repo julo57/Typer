@@ -1,0 +1,32 @@
+/* style.css */
+
+
+#kontener {
+    position: relative; /* Ustawia kontener jako punkt odniesienia dla elementów absolutnie pozycjonowanych */
+    width: 60%; /* Przykładowa szerokość, dostosuj według potrzeb */
+    margin-left: 20%; 
+    margin-right: 20%; 
+    margin-top: 15%; 
+    margin-bottom: 20%; 
+}
+
+
+ #poleWpisywania   {
+    position: absolute; /* Pozycjonowanie absolutne względem kontenera */
+    top: 0; /* Ustawienie na górze kontenera */
+    left: 0; /* Ustawienie po lewej stronie kontenera */
+    width: 100%; /* Szerokość równa szerokości kontenera */
+    font-size: 30px; /* Przykładowy rozmiar czcionki */
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    
+}
+
+#check {
+    position: absolute; /* Pozycjonowanie absolutne względem kontenera */
+   right: 0;
+   top : 0;
+}

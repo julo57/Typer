@@ -1,0 +1,27 @@
+<!-- Przykład szablonu bazowego (base.html) -->
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+
+ 
+  <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+
+  <link rel="stylesheet" href="{% static 'css/darkbase.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  
+  
+
+
+  <link rel="stylesheet" href="{% static 'css/productsite.css' %}">
+
+  <title>Mój Projekt Django</title>
+</head>
+<body>
+  
+  <!-- Zawartość strony -->
+  {% include 'navbar.html' %}
+  {% block content %}{% endblock %}
+
+</body>
+</html>
