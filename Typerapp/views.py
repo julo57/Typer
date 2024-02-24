@@ -15,7 +15,7 @@ def base(request):
 
 def read_file(request):
    
-    file_path = 'C:/Users/zygam/Documents/Django/Typer/Typerapp/static/tekst/przyklad.txt'
+    file_path = 'Typerapp/static/tekst/przyklad.txt'
     with open(file_path, 'r', encoding='utf-8') as file:
         text_content = file.read()
 
@@ -23,7 +23,7 @@ def read_file(request):
 
 
 def read_file2(request):
-    file_path = 'C:/Users/zygam/Documents/Django/Typer/Typerapp/static/tekst/przyklad.txt'
+    file_path = 'Typerapp/static/tekst/przyklad.txt'
     with open(file_path, 'r', encoding='utf-8') as file:
         text_content = file.read()
 
